@@ -1,4 +1,4 @@
-/* Verificar o saldo de uma conta corrente - (ponto flutuante)
+/* Verificar o saldo de uma conta corrente -
 Serviço para realizar deposito numa conta corrente - 
 Serviço de saque de uma conta corrente - */
 #include <conio.h>
@@ -8,7 +8,7 @@ Serviço de saque de uma conta corrente - */
 
 char* getpassword() {
 
-    static char password[6];
+static char password[6];
     int i;
     for (i = 0; i < 6; i++) {
         password[i] = getch();
